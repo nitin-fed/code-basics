@@ -1,0 +1,61 @@
+record_id,borrower_id,borrower_name,sector,fiscal_quarter,period_end_date,revenue_usd_m,ebitda_usd_m,net_income_usd_m,total_debt_usd_m,cash_usd_m,interest_expense_usd_m,capex_usd_m,facility_drawn_usd_m,leverage_ratio,interest_coverage_ratio,compliance_cert_submitted_date
+FIN-001,B01,Halcyon Precision Manufacturing Inc.,Industrial Manufacturing,Q1-2024,2024-03-31,197.89,34.82,15.73,376.42,26.54,7.19,13.0,59.02,2.7,4.84,2024-05-07
+FIN-002,B01,Halcyon Precision Manufacturing Inc.,Industrial Manufacturing,Q2-2024,2024-06-30,207.25,36.26,16.79,375.53,19.88,6.91,11.6,93.37,2.59,5.25,2024-08-09
+FIN-003,B01,Halcyon Precision Manufacturing Inc.,Industrial Manufacturing,Q3-2024,2024-09-30,215.59,40.01,19.28,369.96,29.29,7.1,9.4,64.16,2.31,5.64,2024-10-25
+FIN-004,B01,Halcyon Precision Manufacturing Inc.,Industrial Manufacturing,Q4-2024,2024-12-31,235.58,40.68,19.31,365.3,30.22,7.02,14.67,107.23,2.25,5.79,2025-02-05
+FIN-005,B01,Halcyon Precision Manufacturing Inc.,Industrial Manufacturing,Q1-2025,2025-03-31,225.34,40.07,19.13,364.87,29.18,7.01,14.53,95.8,2.28,5.72,2025-05-04
+FIN-006,B01,Halcyon Precision Manufacturing Inc.,Industrial Manufacturing,Q2-2025,2025-06-30,228.44,40.0,19.25,362.03,22.53,6.68,7.78,73.35,2.26,5.99,2025-08-06
+FIN-007,B01,Halcyon Precision Manufacturing Inc.,Industrial Manufacturing,Q3-2025,2025-09-30,235.81,41.89,20.49,358.5,36.53,6.68,13.19,98.18,2.14,6.27,2025-11-07
+FIN-008,B01,Halcyon Precision Manufacturing Inc.,Industrial Manufacturing,Q4-2025,2025-12-31,236.19,41.08,19.69,356.52,30.99,6.9,12.35,103.85,2.17,5.95,2026-02-11
+FIN-009,B01,Halcyon Precision Manufacturing Inc.,Industrial Manufacturing,Q1-2026,2026-03-31,254.42,44.55,22.1,351.46,25.8,6.57,9.78,123.22,1.97,6.78,2026-05-12
+FIN-010,B01,Halcyon Precision Manufacturing Inc.,Industrial Manufacturing,Q2-2026,2026-06-30,263.73,48.21,24.5,349.66,30.78,6.74,10.71,71.0,1.81,7.15,2026-08-13
+FIN-011,B02,Verdant Grove Foods LLC,Consumer Staples,Q1-2024,2024-03-31,138.65,19.57,8.55,191.41,13.52,3.47,9.69,54.43,2.44,5.63,2024-05-02
+FIN-012,B02,Verdant Grove Foods LLC,Consumer Staples,Q2-2024,2024-06-30,142.09,19.12,8.05,191.55,16.17,3.55,4.62,48.67,2.51,5.38,2024-08-09
+FIN-013,B02,Verdant Grove Foods LLC,Consumer Staples,Q3-2024,2024-09-30,154.07,22.59,10.46,192.79,21.21,3.42,8.82,55.66,2.13,6.6,2024-11-01
+FIN-014,B02,Verdant Grove Foods LLC,Consumer Staples,Q4-2024,2024-12-31,157.46,21.19,9.26,192.0,24.61,3.5,10.24,43.35,2.27,6.06,2025-02-27
+FIN-015,B02,Verdant Grove Foods LLC,Consumer Staples,Q1-2025,2025-03-31,147.86,21.55,9.8,193.3,19.39,3.49,8.04,38.38,2.24,6.18,2025-05-08
+FIN-016,B02,Verdant Grove Foods LLC,Consumer Staples,Q2-2025,2025-06-30,163.69,23.56,10.94,192.96,17.34,3.43,5.04,73.31,2.05,6.88,2025-08-09
+FIN-017,B02,Verdant Grove Foods LLC,Consumer Staples,Q3-2025,2025-09-30,173.49,23.82,10.79,190.35,27.02,3.55,5.8,53.37,2.0,6.72,2025-10-25
+FIN-018,B02,Verdant Grove Foods LLC,Consumer Staples,Q4-2025,2025-12-31,160.52,23.07,10.66,188.1,19.9,3.43,6.52,70.76,2.04,6.73,2026-02-06
+FIN-019,B02,Verdant Grove Foods LLC,Consumer Staples,Q1-2026,2026-03-31,156.41,21.98,9.97,188.71,16.41,3.39,10.92,60.74,2.15,6.49,2026-05-05
+FIN-020,B02,Verdant Grove Foods LLC,Consumer Staples,Q2-2026,2026-06-30,167.37,22.54,10.11,186.94,21.27,3.38,6.56,41.41,2.07,6.67,2026-08-06
+FIN-021,B03,Tidewater Logistics Holdings Corp.,Transportation & Logistics,Q1-2024,2024-03-31,312.84,33.48,9.75,473.59,26.8,9.7,12.36,136.9,3.54,3.45,2024-04-30
+FIN-022,B03,Tidewater Logistics Holdings Corp.,Transportation & Logistics,Q2-2024,2024-06-30,316.18,36.29,11.95,473.25,45.14,9.51,19.7,89.04,3.26,3.82,2024-08-08
+FIN-023,B03,Tidewater Logistics Holdings Corp.,Transportation & Logistics,Q3-2024,2024-09-30,323.42,35.3,10.93,471.67,43.3,9.6,22.43,79.84,3.34,3.68,2024-10-29
+FIN-024,B03,Tidewater Logistics Holdings Corp.,Transportation & Logistics,Q4-2024,2024-12-31,344.71,39.29,13.65,467.53,39.95,9.26,16.16,97.85,2.97,4.24,2025-02-13
+FIN-025,B03,Tidewater Logistics Holdings Corp.,Transportation & Logistics,Q1-2025,2025-03-31,332.84,36.4,11.6,470.58,27.97,9.49,23.29,153.6,3.23,3.83,2025-05-12
+FIN-026,B03,Tidewater Logistics Holdings Corp.,Transportation & Logistics,Q2-2025,2025-06-30,379.03,43.15,15.6,465.48,36.8,9.36,17.45,75.86,2.7,4.61,2025-07-25
+FIN-027,B03,Tidewater Logistics Holdings Corp.,Transportation & Logistics,Q3-2025,2025-09-30,358.97,25.45,2.43,482.62,40.87,9.69,24.52,193.54,4.74,2.63,2025-11-06
+FIN-028,B03,Tidewater Logistics Holdings Corp.,Transportation & Logistics,Q4-2025,2025-12-31,384.36,25.31,1.36,488.96,48.56,10.07,19.87,168.8,4.83,2.51,2026-02-12
+FIN-029,B03,Tidewater Logistics Holdings Corp.,Transportation & Logistics,Q1-2026,2026-03-31,328.38,36.13,11.33,492.05,51.51,9.73,10.9,88.58,3.4,3.71,2026-05-13
+FIN-030,B03,Tidewater Logistics Holdings Corp.,Transportation & Logistics,Q2-2026,2026-06-30,386.03,41.34,13.57,486.15,38.49,9.97,20.76,131.94,2.94,4.14,2026-07-25
+FIN-031,B04,Lumen Ridge Software Inc.,Enterprise Software,Q1-2024,2024-03-31,56.54,15.3,7.62,171.42,7.76,3.29,2.24,41.09,2.8,4.65,2024-04-27
+FIN-032,B04,Lumen Ridge Software Inc.,Enterprise Software,Q2-2024,2024-06-30,58.55,15.52,7.74,172.07,6.83,3.28,4.1,63.6,2.77,4.73,2024-08-07
+FIN-033,B04,Lumen Ridge Software Inc.,Enterprise Software,Q3-2024,2024-09-30,57.78,15.24,7.42,173.51,8.69,3.45,2.59,32.17,2.85,4.42,2024-10-29
+FIN-034,B04,Lumen Ridge Software Inc.,Enterprise Software,Q4-2024,2024-12-31,65.91,18.0,9.31,175.19,5.31,3.44,4.13,37.48,2.43,5.23,2025-02-08
+FIN-035,B04,Lumen Ridge Software Inc.,Enterprise Software,Q1-2025,2025-03-31,62.89,16.36,8.25,173.06,7.81,3.31,2.57,48.93,2.64,4.95,2025-04-30
+FIN-036,B04,Lumen Ridge Software Inc.,Enterprise Software,Q2-2025,2025-06-30,63.81,17.46,9.03,171.61,9.73,3.34,4.07,29.71,2.46,5.22,2025-07-26
+FIN-037,B04,Lumen Ridge Software Inc.,Enterprise Software,Q3-2025,2025-09-30,62.79,16.11,8.0,172.34,6.34,3.38,3.75,46.94,2.67,4.76,2025-11-20
+FIN-038,B04,Lumen Ridge Software Inc.,Enterprise Software,Q4-2025,2025-12-31,65.29,16.88,8.47,173.56,8.07,3.45,4.14,48.09,2.57,4.89,2026-02-06
+FIN-039,B04,Lumen Ridge Software Inc.,Enterprise Software,Q1-2026,2026-03-31,58.95,15.61,7.67,174.86,8.78,3.46,3.89,34.13,2.8,4.51,2026-05-05
+FIN-040,B04,Lumen Ridge Software Inc.,Enterprise Software,Q2-2026,2026-06-30,62.61,17.38,8.94,176.1,8.12,3.42,2.27,61.12,2.53,5.08,2026-07-31
+FIN-041,B05,Castlepoint Health Services LP,Healthcare Services,Q1-2024,2024-03-31,174.6,23.4,9.21,271.9,24.26,5.17,7.56,97.85,2.9,4.52,2024-05-09
+FIN-042,B05,Castlepoint Health Services LP,Healthcare Services,Q2-2024,2024-06-30,183.3,24.57,9.74,269.63,16.25,5.34,11.89,93.52,2.74,4.61,2024-08-04
+FIN-043,B05,Castlepoint Health Services LP,Healthcare Services,Q3-2024,2024-09-30,182.11,23.58,9.05,267.65,17.88,5.3,5.64,53.59,2.84,4.45,2024-11-04
+FIN-044,B05,Castlepoint Health Services LP,Healthcare Services,Q4-2024,2024-12-31,193.44,26.32,10.9,265.5,21.66,5.21,13.4,74.17,2.52,5.05,2025-02-06
+FIN-045,B05,Castlepoint Health Services LP,Healthcare Services,Q1-2025,2025-03-31,185.55,23.24,6.15,262.7,18.78,8.64,6.37,82.47,2.83,2.69,2025-05-03
+FIN-046,B05,Castlepoint Health Services LP,Healthcare Services,Q2-2025,2025-06-30,194.08,25.5,10.35,262.12,24.48,5.08,7.8,84.53,2.57,5.02,2025-08-07
+FIN-047,B05,Castlepoint Health Services LP,Healthcare Services,Q3-2025,2025-09-30,184.97,24.14,9.48,262.9,24.72,5.19,8.24,46.2,2.72,4.65,2025-11-02
+FIN-048,B05,Castlepoint Health Services LP,Healthcare Services,Q4-2025,2025-12-31,209.22,26.69,10.76,264.53,21.76,5.22,8.87,66.5,2.48,5.12,2026-01-27
+FIN-049,B05,Castlepoint Health Services LP,Healthcare Services,Q1-2026,2026-03-31,188.97,23.65,8.96,263.35,25.36,5.25,12.49,78.93,2.78,4.5,2026-05-10
+FIN-050,B05,Castlepoint Health Services LP,Healthcare Services,Q2-2026,2026-06-30,196.31,24.24,9.35,261.29,24.81,5.08,11.03,69.9,2.69,4.78,2026-07-25
+FIN-051,B06,Ironwood Energy Partners LLC,Energy (Midstream),Q1-2024,2024-03-31,266.93,58.57,22.91,906.78,24.98,19.08,8.91,151.93,3.87,3.07,2024-05-12
+FIN-052,B06,Ironwood Energy Partners LLC,Energy (Midstream),Q2-2024,2024-06-30,283.0,64.24,26.82,910.2,27.73,19.04,10.74,90.55,3.54,3.37,2024-07-26
+FIN-053,B06,Ironwood Energy Partners LLC,Energy (Midstream),Q3-2024,2024-09-30,285.84,65.08,27.75,898.21,37.27,18.56,10.8,174.54,3.45,3.51,2024-11-05
+FIN-054,B06,Ironwood Energy Partners LLC,Energy (Midstream),Q4-2024,2024-12-31,301.92,67.46,29.11,884.86,42.75,18.58,10.34,140.64,3.28,3.63,2025-02-01
+FIN-055,B06,Ironwood Energy Partners LLC,Energy (Midstream),Q1-2025,2025-03-31,289.7,63.85,27.22,872.7,42.84,17.89,13.98,187.68,3.42,3.57,2025-04-27
+FIN-056,B06,Ironwood Energy Partners LLC,Energy (Midstream),Q2-2025,2025-06-30,320.84,71.26,31.48,880.33,41.39,18.61,18.86,150.6,3.09,3.83,2025-07-26
+FIN-057,B06,Ironwood Energy Partners LLC,Energy (Midstream),Q3-2025,2025-09-30,327.11,74.82,34.25,883.49,32.95,18.31,13.05,167.21,2.95,4.09,2025-10-25
+FIN-058,B06,Ironwood Energy Partners LLC,Energy (Midstream),Q4-2025,2025-12-31,344.57,76.77,35.64,876.31,35.44,17.81,14.08,127.46,2.85,4.31,2026-02-01
+FIN-059,B06,Ironwood Energy Partners LLC,Energy (Midstream),Q1-2026,2026-03-31,307.68,65.87,27.89,878.37,26.2,18.41,14.25,155.33,3.33,3.58,2026-05-01
+FIN-060,B06,Ironwood Energy Partners LLC,Energy (Midstream),Q2-2026,2026-06-30,315.62,52.35,16.43,945.06,42.81,19.69,20.28,213.2,4.51,2.66,2026-07-25

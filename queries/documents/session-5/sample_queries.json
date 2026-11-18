@@ -1,0 +1,202 @@
+[
+  {
+    "id": "Q01",
+    "query": "What was Halcyon Precision Manufacturing's revenue in Q4-2024?",
+    "expected_answer": "$235.58 million.",
+    "query_type": "csv_only",
+    "sources": [
+      "borrower_quarterly_financials.csv: FIN-004"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "id": "Q02",
+    "query": "Which borrower carried the highest total debt at the end of Q2-2026, and how much?",
+    "expected_answer": "Ironwood Energy Partners LLC (B06) with $945.06 million.",
+    "query_type": "csv_only",
+    "sources": [
+      "borrower_quarterly_financials.csv: Q2-2026 rows"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "id": "Q03",
+    "query": "What was Lumen Ridge Software's average quarterly EBITDA across fiscal 2025?",
+    "expected_answer": "$16.70 million (average of Q1-Q4 2025: 16.36, 17.46, 16.11, 16.88).",
+    "query_type": "csv_only",
+    "sources": [
+      "borrower_quarterly_financials.csv: FIN-035, FIN-036, FIN-037, FIN-038"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "id": "Q04",
+    "query": "Which law governs the credit agreement and where must disputes be heard?",
+    "expected_answer": "New York law (Section 8.1). Exclusive jurisdiction of state and federal courts in Manhattan, New York City; jury trial is waived (Section 8.2).",
+    "query_type": "pdf_only",
+    "sources": [
+      "master_credit_facility_agreement.pdf: Sections 8.1, 8.2"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "id": "Q05",
+    "query": "What interest rate applies after an Event of Default?",
+    "expected_answer": "The otherwise-applicable rate (Term SOFR + Applicable Margin) plus 2.00% per annum, for the defaulting Borrower (Section 2.4).",
+    "query_type": "pdf_only",
+    "sources": [
+      "master_credit_facility_agreement.pdf: Section 2.4, 2.3"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "id": "Q06",
+    "query": "What are the limits on a borrower's equity cure right?",
+    "expected_answer": "A cash equity contribution within 15 Business Days after the Compliance Certificate is due. It cannot be used in two consecutive Fiscal Quarters or more than twice over the agreement term. Cure amounts are ignored when setting the margin under Section 2.5 (Section 6.3).",
+    "query_type": "pdf_only",
+    "sources": [
+      "master_credit_facility_agreement.pdf: Section 6.3"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "id": "Q07",
+    "query": "What is the maximum leverage ratio covenant for Tidewater Logistics, and how is leverage defined?",
+    "expected_answer": "4.00x (Schedule 2). Leverage Ratio = Total Debt / Annualized EBITDA, where Annualized EBITDA = latest quarter EBITDA x 4 (Sections 1.6, 1.7).",
+    "query_type": "pdf_only",
+    "sources": [
+      "master_credit_facility_agreement.pdf: Schedule 2, Sections 1.6-1.7"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "id": "Q08",
+    "query": "Which borrowers breached their Maximum Leverage Ratio covenant, and in which quarters?",
+    "expected_answer": "Tidewater Logistics Holdings Corp. (B03) in Q3-2025: 4.74x vs 4.00x max; Tidewater Logistics Holdings Corp. (B03) in Q4-2025: 4.83x vs 4.00x max; Ironwood Energy Partners LLC (B06) in Q2-2026: 4.51x vs 4.25x max.",
+    "query_type": "cross_document",
+    "sources": [
+      "borrower_quarterly_financials.csv: FIN-027, FIN-028, FIN-060",
+      "master_credit_facility_agreement.pdf: Schedule 2, Section 6.1"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "id": "Q09",
+    "query": "Is Tidewater Logistics currently in an Event of Default? Explain.",
+    "expected_answer": "Yes. It breached the leverage covenant (max 4.00x) in Q3-2025 (4.74x) and Q4-2025 (4.83x). Interest coverage stayed just above its 2.50x minimum (2.63x and 2.51x), so only leverage was breached. An equity cure cannot be used in two consecutive quarters (Section 6.3(a)), and Schedule 3 lists no cure for Tidewater, so the Q4-2025 breach at minimum is uncured. That is a Financial Covenant Default (Section 7.2), and the Agent may terminate the Commitment and accelerate the loans (Section 7.7). Default interest of +2.00% applies (Section 2.4). Other borrowers are not affected (Section 7.7).",
+    "query_type": "cross_document",
+    "sources": [
+      "borrower_quarterly_financials.csv: FIN-027, FIN-028",
+      "master_credit_facility_agreement.pdf: Sections 6.3, 7.2, 7.7, 2.4, Schedules 2-3"
+    ],
+    "difficulty": "hard",
+    "reasoning": "Multi-hop: CSV ratios -> Schedule 2 thresholds -> cure rule -> Schedule 3 record -> EoD clause."
+  },
+  {
+    "id": "Q10",
+    "query": "Did Castlepoint Health Services ever breach a financial covenant, and what happened?",
+    "expected_answer": "Yes. In Q1-2025 its interest coverage was 2.69x against a 2.75x minimum (Schedule 2). Per Schedule 3, it was cured by a $4.10 million equity contribution accepted on 2025-05-29. That is one of its two permitted cures (Section 6.3), so no Event of Default occurred.",
+    "query_type": "cross_document",
+    "sources": [
+      "borrower_quarterly_financials.csv: FIN-045",
+      "master_credit_facility_agreement.pdf: Schedules 2-3, Section 6.3"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "id": "Q11",
+    "query": "Did any borrower trigger the margin step-up without actually breaching its leverage covenant?",
+    "expected_answer": "Yes. Ironwood Energy Partners LLC (B06) had leverage of 3.87x in Q1-2024. That is above the 90% step-up threshold of 3.825x but below its 4.25x maximum. Under Section 2.5, its margin rose from 3.00% to 3.50% starting the next quarter (Q2-2024).",
+    "query_type": "cross_document",
+    "sources": [
+      "borrower_quarterly_financials.csv: FIN-051",
+      "master_credit_facility_agreement.pdf: Section 2.5, Schedules 1-2"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "Q12",
+    "query": "Which compliance certificates were delivered late, and what are the consequences?",
+    "expected_answer": "Certificates are due within 45 days of quarter end (Section 5.1). Verdant Grove Foods LLC (B02) Q4-2024: submitted 2025-02-27, 58 days after quarter end (13 days late) -> beyond the 10-day grace period, so a Reporting Event of Default (Section 7.3); Lumen Ridge Software Inc. (B04) Q3-2025: submitted 2025-11-20, 51 days after quarter end (6 days late) -> within the 10-day grace period, a single 'Late Delivery', not an Event of Default.",
+    "query_type": "cross_document",
+    "sources": [
+      "borrower_quarterly_financials.csv: FIN-014, FIN-037",
+      "master_credit_facility_agreement.pdf: Sections 5.1, 7.3"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "Q13",
+    "query": "Estimate Halcyon's quarterly commitment fee for Q2-2026 based on its drawn balance at quarter end.",
+    "expected_answer": "Commitment $150m (Schedule 1) - drawn $71.00m = $79.00m undrawn. x 0.35% / 4 = approx. $69.1 thousand (Section 2.6). This assumes the quarter-end balance stands in for the average daily balance.",
+    "query_type": "cross_document",
+    "sources": [
+      "borrower_quarterly_financials.csv: FIN-010",
+      "master_credit_facility_agreement.pdf: Section 2.6, Schedule 1"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "id": "Q14",
+    "query": "Ironwood Energy's Q2-2026 leverage exceeds its covenant. Can it use an equity cure, and roughly how much debt reduction is needed?",
+    "expected_answer": "Leverage is 4.51x vs a 4.25x max. Ironwood has no prior cures (Schedule 3) and did not breach in Q1-2026, so a cure is available (Section 6.3). To comply: Total Debt <= 4.25 x ($52.35m x 4) = $889.95m. So roughly $55.11m of debt reduction or equivalent cure is needed vs $945.06m current debt.",
+    "query_type": "cross_document",
+    "sources": [
+      "borrower_quarterly_financials.csv: FIN-060",
+      "master_credit_facility_agreement.pdf: Sections 1.6-1.7, 6.1, 6.3, Schedules 2-3"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "Q15",
+    "query": "Did any borrower exceed the capital expenditure limit in any quarter?",
+    "expected_answer": "No. The limit is 8% of quarterly revenue (Section 6.4). The highest ratio was Lumen Ridge Software Inc. in Q2-2024 at 7.00%.",
+    "query_type": "cross_document",
+    "sources": [
+      "borrower_quarterly_financials.csv: all rows (capex_usd_m / revenue_usd_m)",
+      "master_credit_facility_agreement.pdf: Section 6.4"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "id": "Q16",
+    "query": "If 3-month Term SOFR is 4.30%, what interest rate does Verdant Grove Foods pay on its revolver?",
+    "expected_answer": "6.30% per annum = 4.30% SOFR + 2.00% Applicable Margin (Schedule 1, Section 2.3). Its leverage never exceeded 90% of its 3.25x max, so no step-up applies. Interest is calculated on a 360-day year.",
+    "query_type": "cross_document",
+    "sources": [
+      "master_credit_facility_agreement.pdf: Section 2.3, Schedule 1",
+      "borrower_quarterly_financials.csv: B02 rows"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "id": "Q17",
+    "query": "What was overall facility utilization at the end of Q2-2026?",
+    "expected_answer": "Total drawn $588.57m out of $885m total commitments (Schedule 1) = 66.5% utilization.",
+    "query_type": "cross_document",
+    "sources": [
+      "borrower_quarterly_financials.csv: Q2-2026 rows",
+      "master_credit_facility_agreement.pdf: Schedule 1"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "id": "Q18",
+    "query": "Does Tidewater's default allow the bank to accelerate Halcyon's loans?",
+    "expected_answer": "No. Commitments are several, not joint (Section 2.1). An Event of Default for one Borrower is not an Event of Default for any other Borrower (Section 7.7).",
+    "query_type": "pdf_only",
+    "sources": [
+      "master_credit_facility_agreement.pdf: Sections 2.1, 7.7"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "id": "Q19",
+    "query": "What was Ironwood Energy's dividend payout ratio in 2025?",
+    "expected_answer": "Not answerable. Neither document contains dividend data; the system should say so rather than guess.",
+    "query_type": "unanswerable",
+    "sources": [],
+    "difficulty": "easy",
+    "reasoning": "Negative test for hallucination."
+  }
+]
