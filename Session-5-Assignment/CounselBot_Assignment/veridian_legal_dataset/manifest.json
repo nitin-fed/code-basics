@@ -1,0 +1,247 @@
+[
+  {
+    "source_document": "Legal_Department_Handbook.pdf",
+    "doc_id": "VLH-GEN-001",
+    "path": "documents/general/Legal_Department_Handbook.pdf",
+    "collection": "general",
+    "access_roles": [
+      "general_counsel",
+      "corporate_counsel",
+      "litigation_counsel",
+      "compliance_officer",
+      "paralegal"
+    ],
+    "matter_id": "NONE",
+    "format": "pdf"
+  },
+  {
+    "source_document": "Code_of_Business_Conduct.pdf",
+    "doc_id": "VLH-GEN-002",
+    "path": "documents/general/Code_of_Business_Conduct.pdf",
+    "collection": "general",
+    "access_roles": [
+      "general_counsel",
+      "corporate_counsel",
+      "litigation_counsel",
+      "compliance_officer",
+      "paralegal"
+    ],
+    "matter_id": "NONE",
+    "format": "pdf"
+  },
+  {
+    "source_document": "Document_Retention_Policy.pdf",
+    "doc_id": "VLH-GEN-003",
+    "path": "documents/general/Document_Retention_Policy.pdf",
+    "collection": "general",
+    "access_roles": [
+      "general_counsel",
+      "corporate_counsel",
+      "litigation_counsel",
+      "compliance_officer",
+      "paralegal"
+    ],
+    "matter_id": "NONE",
+    "format": "pdf"
+  },
+  {
+    "source_document": "General_Legal_FAQs.md",
+    "doc_id": "VLH-GEN-004",
+    "path": "documents/general/General_Legal_FAQs.md",
+    "collection": "general",
+    "access_roles": [
+      "general_counsel",
+      "corporate_counsel",
+      "litigation_counsel",
+      "compliance_officer",
+      "paralegal"
+    ],
+    "matter_id": "NONE",
+    "format": "md"
+  },
+  {
+    "source_document": "Contract_Review_Playbook.pdf",
+    "doc_id": "VLH-CON-001",
+    "path": "documents/contracts/Contract_Review_Playbook.pdf",
+    "collection": "contracts",
+    "access_roles": [
+      "corporate_counsel",
+      "paralegal",
+      "general_counsel"
+    ],
+    "matter_id": "NONE",
+    "format": "pdf"
+  },
+  {
+    "source_document": "Vendor_MSA_Template.pdf",
+    "doc_id": "VLH-CON-002",
+    "path": "documents/contracts/Vendor_MSA_Template.pdf",
+    "collection": "contracts",
+    "access_roles": [
+      "corporate_counsel",
+      "paralegal",
+      "general_counsel"
+    ],
+    "matter_id": "NONE",
+    "format": "pdf"
+  },
+  {
+    "source_document": "NDA_Clause_Library.md",
+    "doc_id": "VLH-CON-003",
+    "path": "documents/contracts/NDA_Clause_Library.md",
+    "collection": "contracts",
+    "access_roles": [
+      "corporate_counsel",
+      "paralegal",
+      "general_counsel"
+    ],
+    "matter_id": "NONE",
+    "format": "md"
+  },
+  {
+    "source_document": "Project_Falcon_Due_Diligence_Memo.pdf",
+    "doc_id": "VLH-MTR-017",
+    "path": "documents/contracts/Project_Falcon_Due_Diligence_Memo.pdf",
+    "collection": "contracts",
+    "access_roles": [
+      "corporate_counsel",
+      "general_counsel"
+    ],
+    "matter_id": "MTR-017",
+    "format": "pdf"
+  },
+  {
+    "source_document": "Litigation_Hold_and_Discovery_Procedure.pdf",
+    "doc_id": "VLH-LIT-001",
+    "path": "documents/litigation/Litigation_Hold_and_Discovery_Procedure.pdf",
+    "collection": "litigation",
+    "access_roles": [
+      "litigation_counsel",
+      "general_counsel"
+    ],
+    "matter_id": "NONE",
+    "format": "pdf"
+  },
+  {
+    "source_document": "Court_Filing_and_Limitation_Guide.pdf",
+    "doc_id": "VLH-LIT-002",
+    "path": "documents/litigation/Court_Filing_and_Limitation_Guide.pdf",
+    "collection": "litigation",
+    "access_roles": [
+      "litigation_counsel",
+      "general_counsel"
+    ],
+    "matter_id": "NONE",
+    "format": "pdf"
+  },
+  {
+    "source_document": "Settlement_Authority_Matrix.pdf",
+    "doc_id": "VLH-LIT-003",
+    "path": "documents/litigation/Settlement_Authority_Matrix.pdf",
+    "collection": "litigation",
+    "access_roles": [
+      "litigation_counsel",
+      "general_counsel"
+    ],
+    "matter_id": "NONE",
+    "format": "pdf"
+  },
+  {
+    "source_document": "Meridian_Arbitration_Strategy_Memo.pdf",
+    "doc_id": "VLH-MTR-031",
+    "path": "documents/litigation/Meridian_Arbitration_Strategy_Memo.pdf",
+    "collection": "litigation",
+    "access_roles": [
+      "litigation_counsel",
+      "general_counsel"
+    ],
+    "matter_id": "MTR-031",
+    "format": "pdf"
+  },
+  {
+    "source_document": "Anti_Bribery_and_Corruption_Policy.pdf",
+    "doc_id": "VLH-COM-001",
+    "path": "documents/compliance/Anti_Bribery_and_Corruption_Policy.pdf",
+    "collection": "compliance",
+    "access_roles": [
+      "compliance_officer",
+      "general_counsel"
+    ],
+    "matter_id": "NONE",
+    "format": "pdf"
+  },
+  {
+    "source_document": "Data_Protection_DPDP_Compliance_Guide.pdf",
+    "doc_id": "VLH-COM-002",
+    "path": "documents/compliance/Data_Protection_DPDP_Compliance_Guide.pdf",
+    "collection": "compliance",
+    "access_roles": [
+      "compliance_officer",
+      "general_counsel"
+    ],
+    "matter_id": "NONE",
+    "format": "pdf"
+  },
+  {
+    "source_document": "Insider_Trading_Code.pdf",
+    "doc_id": "VLH-COM-003",
+    "path": "documents/compliance/Insider_Trading_Code.pdf",
+    "collection": "compliance",
+    "access_roles": [
+      "compliance_officer",
+      "general_counsel"
+    ],
+    "matter_id": "NONE",
+    "format": "pdf"
+  },
+  {
+    "source_document": "Project_Harbor_Investigation_Interim_Report.pdf",
+    "doc_id": "VLH-MTR-023",
+    "path": "documents/compliance/Project_Harbor_Investigation_Interim_Report.pdf",
+    "collection": "compliance",
+    "access_roles": [
+      "compliance_officer",
+      "general_counsel"
+    ],
+    "matter_id": "MTR-023",
+    "format": "pdf"
+  },
+  {
+    "source_document": "Trademark_and_Brand_Protection_Guide.pdf",
+    "doc_id": "VLH-IP-001",
+    "path": "documents/ip/Trademark_and_Brand_Protection_Guide.pdf",
+    "collection": "ip",
+    "access_roles": [
+      "corporate_counsel",
+      "litigation_counsel",
+      "general_counsel"
+    ],
+    "matter_id": "NONE",
+    "format": "pdf"
+  },
+  {
+    "source_document": "Patent_and_Invention_Disclosure_Process.pdf",
+    "doc_id": "VLH-IP-002",
+    "path": "documents/ip/Patent_and_Invention_Disclosure_Process.pdf",
+    "collection": "ip",
+    "access_roles": [
+      "corporate_counsel",
+      "litigation_counsel",
+      "general_counsel"
+    ],
+    "matter_id": "NONE",
+    "format": "pdf"
+  },
+  {
+    "source_document": "NovaGen_Patent_Dispute_Strategy_Note.pdf",
+    "doc_id": "VLH-MTR-044",
+    "path": "documents/ip/NovaGen_Patent_Dispute_Strategy_Note.pdf",
+    "collection": "ip",
+    "access_roles": [
+      "litigation_counsel",
+      "general_counsel"
+    ],
+    "matter_id": "MTR-044",
+    "format": "pdf"
+  }
+]
